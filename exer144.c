@@ -9,7 +9,4 @@ void main()
   cube=lenth*lenth*lenth;
   printf(" \n\t\tvolume of cube is %d",cube);
   
-
-
-
 }
