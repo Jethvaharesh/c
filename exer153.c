@@ -14,10 +14,4 @@ void main()
     area=(2*pi*radius*height)+(2*pi*(radius*radius));
     printf("\n\tArea of Cylinder is %.2f ",area);
     
-
-
-
-
-
 }
-       
