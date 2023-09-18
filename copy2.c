@@ -1,4 +1,4 @@
-if else desicion making statement
+/if else desicion making statement
 ----------------------------------
 
 if ( jo )
