@@ -10,15 +10,51 @@ void main()
 // >300 & <400     4
 // >400            5
 
-float unit,price,taxe;
+  int unit,price;
+  float amount,taxe,tbill;
 
-  printf("enter your monthly unit:");
-  scanf("%f",&unit);
-  printf("your monthly unit is %f",unit);
+  printf("enter your monthly unit: ");
+  scanf("%d",&unit);
+  printf("value of unit: %d\n",unit);
+  price=0;
   
-  if (unit<=100)
+  if (unit > 0 && unit<=100)
   {
      price=1;
+
+  }
+  else if(unit>100 && unit<=200)
+  {
+    price=2;
+  }
+  else if(unit>200 && unit<=300)
+  {
+    price=3;
+  }
+  else if(unit>300 && unit<=400)
+  {
+    price=4;
+  }
+  else if(unit>400)
+  {
+    price=5;
+  }
+  else
+  {
+    price=0;
+  }
+
+   if(unit==0)
+  {
+    printf("invalide input");
+  }
+
+  else
+  { 
+     amount=unit*price;
+     taxe=(amount*0.05);
+     tbill=amount+taxe;
+     printf("\nyour monthly E bill is: %.2f\n",tbill);
 
   }
 
