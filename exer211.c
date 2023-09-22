@@ -1,42 +1,22 @@
-//  Write a C program to calculate final electricity bill based upon below given criteria. take monthly electricity unit from user as input. 
-// units           price  per unit 
-// <100            1
-// >100 & <200     2 
-// >200 & <300     3
-// >300 & <400     4
-// >400            5
-// also calculate 5% percentage energy charge on total bill
-//  amount & display total amount 
+// Write a program to display zodiac symbol & given zodiac sign from given birth day and month as per following criteria.
+// https://i.pinimg.com/564x/43/aa/50/43aa50c918f3bd03abb71b6d4aaf93c7.jpg
 #include<stdio.h>
 void main()
+{
+  int dd,mm,yyyy;
+  printf("enter your birth date ");
+  scanf("%d",&dd);
 
-{    int unit,price;
-     float amount,taxe,tbill;
+  printf("\nenter your birth month ");
+  scanf("%d",&mm);
 
-     printf("enter your unit ");
-     scanf("%d",&unit);
-     printf("\n your unit: \n");
+  printf("\nenter your birth year ");
+  scanf("%d",&yyyy);
 
+  printf("your dob is %d/%d/%d",dd,mm,yyyy);
+  char the_ram;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  if(the_ram= )
 
 
 
