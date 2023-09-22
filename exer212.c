@@ -16,9 +16,9 @@
 
     printf("enter your monthly income:  ");
     scanf("%f",& m_inc);
-    printf("\nmonthly income is:  %f\n",m_inc);
+    printf("\nmonthly income is:  %.2f\n",m_inc);
     y_inc=m_inc*12;
-    printf("\nyour yearly income is %f\n",y_inc);
+    printf("\nyour yearly income is %.2f\n",y_inc);
 
     if (y_inc<0 && y_inc>=300000)
     {
@@ -52,8 +52,8 @@
 
     else
     {
-        taxe= (y_inc*taxe_r)/100;
-        total_inc=(y_inc - taxe);
+        // taxe= (y_inc*taxe_r)/100;
+        total_inc=(y_inc - taxe_r)/100;
         printf("\nyour yearly income after pay taxe is:  %.2f\n",total_inc);
 
 
