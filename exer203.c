@@ -34,7 +34,7 @@ void main()
 
    }
  
- else
+ 
    { 
 
     printf("\n\tYOUR NEMBER IS CONSONANT ");

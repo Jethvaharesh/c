@@ -13,26 +13,14 @@ void main()
 float unit,price,taxe;
 
   printf("enter your monthly unit:");
-  scanf("%.2f",&unit);
-  printf("your monthly unit is %.2f",unit);
-
-float amount,elect,price, totalb;
-
-
-
+  scanf("%f",&unit);
+  printf("your monthly unit is %f",unit);
+  
   if (unit<=100)
   {
-    price=1;
-    printf("price is %f",price);
-    amount=unit*price;
-    print("amount is %.2F",amount);
+     price=1;
 
-    taxe=(amount*5)/100;
-    totalb=amount-taxe;
-    printf("your bill is %.2f",totalb);
-
-
-   }
+  }
 
 
         printf("\n\tgood by");
