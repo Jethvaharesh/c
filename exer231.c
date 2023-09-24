@@ -24,9 +24,9 @@ void main()
   area3=(height3*base3)/2;
   printf("\nyour area3 of triangle is %d\n\n",area3);
 
-  if(area1<area2) 
+  if(area1<=area2) 
   {
-    if  (area1<area3)
+    if  (area1<=area3)
     {
       printf("\narea 1 is smaller than area 2 and area 3\n");
     
@@ -47,9 +47,9 @@ void main()
     }
   }
 
-  else if(area2<area3)
+  else if(area2<=area3)
   {  
-    if (area2<area1)
+    if (area2<=area1)
     {
        printf("\narea 2 is smaller than area 3 and area 1\n");
     }
@@ -66,9 +66,9 @@ void main()
     }
   }
 
-  else if(area3<area1)
+  else if(area3<=area1)
   { 
-    if(area3<area2)
+    if(area3<=area2)
     {
       printf("area 3 is smaller than area 1 and area 2");
     }
