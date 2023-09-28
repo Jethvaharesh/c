@@ -3,14 +3,28 @@ void main()
 {
    //   https://i.pinimg.com/originals/24/c0/3b/24c03bc8f04e1d97887431ef6ae23c89.jpg .
 
-    int  number;
+    int  planet;
     
 
-    printf(" number is:  ");
-    scanf("%d",&number);
+    printf("\n||||||||||||||||||||  select any one number for any one planet||||||||||||||| ");
+    printf(" 1 for murcury \n");
+    printf(" 2 for venus \n");
+    printf(" 3 for earth \n");
+    printf(" 4 for mars \n");
+    printf(" 5 for jupiter \n");
+    printf(" 6 for saturn \n");
+    printf(" 7 for uranus \n");
+    printf(" 8 for neptune\n\n");
 
-    switch(number)
-    { 
+    printf("enter number of planet: ");
+    scanf("%d",&planet);
+
+    printf("\nnumber of planet%d \n\n",planet);
+
+    switch (planet)
+    {
+      
+      
      case 1:
        printf("mercury distance is 57910006 km");
        break;   
@@ -44,18 +58,12 @@ void main()
 
      default:
        printf(" invalide input");
-
-
-
-
-
-
-
-
+       break;
 
 
     }
     
+  }
 
 
 
@@ -63,5 +71,3 @@ void main()
 
 
 
-
-}
