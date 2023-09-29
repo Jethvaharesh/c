@@ -5,7 +5,7 @@ void main()
 {
    int num=1,number=1;
 
-  while(num<=1000)
+  while(num<=10000)
    { 
      printf("%d, ",num);
      number=number+2;

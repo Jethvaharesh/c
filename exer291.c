@@ -1,18 +1,18 @@
-// tack stating number and ending number from user and print range .
-// 25,26,27,28,29,30....50;
+//1, 6, 15, 28, 45, 66, 91, 120, 153, 190, 231 .. 10000
 #include<stdio.h>
 void main()
 {
-    int num=25;
-   while((num>=25)&&(num<=50))
-    {
-      printf("%d,",num);
-      num=num+1;
-    }
-    // printf("%d ",num);
-    // num=num+1;
-    // printf("%d, ",num);
-    // num=num+1;
+   int num=1,num2=1;
+  
+  while(num<=10000)
+   {
+    printf("%d, ",num);
+    num2=num2+4;
+    num=num+num2;
+   }
+   
+
+
 
 
 }

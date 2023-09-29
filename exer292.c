@@ -1,18 +1,21 @@
-// while 1 loop perform to reverce .
+// 1 , 8 , 27 , 64 ,125,...1000.
+
 #include<stdio.h>
 void main()
 {
-  int num=100;
-  
-  while(num>=1)
-   { 
-     printf("%d, ",num);
-     num=num-1;
-   }
-//    printf("%d, ",num);
-//    num=num-1;
-//    printf("%d, ",num);
-//    num=num-1;
+  int num=1,num2=1;
+  printf("%d, ",num);
+  num=num+7;
+  printf("%d, ",num);
+  num=num+19;
+  printf("%d, ",num);
+  num=num+37;
+
+
+
+
+
+
 
 
 }
