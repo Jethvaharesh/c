@@ -1,3 +1,5 @@
+// wrire a program to find area  of cylinder take input from user using scanf .
+
 #include<stdio.h>
 void main()
    //area of cylinder a=2pirh+2pirr

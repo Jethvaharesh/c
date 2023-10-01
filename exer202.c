@@ -1,6 +1,7 @@
+  //write a program to check number negetive or not ,if negetive to convert int to possitive 
 #include<stdio.h>
 void main()
-{  //write a program to check number negetive or not ,if negetive to convert int to possitive 
+{
    int number;
    printf("enter value of  number: ");
    scanf("%d",&number);

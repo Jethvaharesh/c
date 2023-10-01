@@ -1,3 +1,4 @@
+// write a program to calculet simple intrest .
 #include<stdio.h> 
 void main()
 

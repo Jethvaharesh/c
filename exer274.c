@@ -1,26 +1,19 @@
 // 1,3,5,7,9..............300;
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-   int num=1;
+  int num = 1;
 
-   while(num<=300)
-    {
-      printf("%d, ",num);
-      num=num+2;
-    }
-    // printf("%d, ",num);
-    // num=num+2;
-    // printf("%d, ",num);
-    // num=num+2;
-    // printf("%d, ",num);
-    // num=num+2;
-    // printf("%d, ",num);
-
-
-
-
-
-
-
+  while (num <= 300)
+  {
+    printf("%d, ", num);
+    num = num + 2;
+  }
+  // printf("%d, ",num);
+  // num=num+2;
+  // printf("%d, ",num);
+  // num=num+2;
+  // printf("%d, ",num);
+  // num=num+2;
+  // printf("%d, ",num);
 }

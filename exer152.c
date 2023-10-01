@@ -1,3 +1,4 @@
+// wrire a program to find area  of triangle take input from user using scanf .
 #include<stdio.h>
 void main()
 {

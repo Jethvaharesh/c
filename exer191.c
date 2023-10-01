@@ -1,7 +1,7 @@
+    //  write a program to check given number is opsitive nagitive .
 #include<stdio.h>
 void main()
 {
-    //  write a program to check given number is opsitive nagitive .
     int number;
     printf(" enter number");
     scanf("%d",&number);

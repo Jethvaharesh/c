@@ -1,3 +1,4 @@
+// write a program to find income taxe income :5 lk taxe rate : 5% .
 #include<stdio.h>
 void main()
 {

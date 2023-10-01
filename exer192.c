@@ -1,8 +1,8 @@
+    // write a program to findout whether given year is leap year or 
+    // not ( using if else )
 #include<stdio.h>
 void main()
 {
-    // write a program to findout whether given year is leap year or 
-    // not ( using if else )
     int year;
     printf("\t\tenter year for leap year  ") ;
     scanf("%d",&year);

@@ -1,6 +1,7 @@
+  //write a program to check number is odd , even or zero .
 #include<stdio.h>
 void main()
-{  //write a program to check number is odd , even or zero .
+{
    int number;
    printf("Number is ");
    scanf("%d",&number);

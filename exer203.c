@@ -1,44 +1,23 @@
 // Check if a character is a vowel or a consonant
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-    char letter;
- printf("\n\tENTER YOUR LETTER: ");
- scanf("%c,&letter");
- printf("your letter is %c,",letter);
+  char letter;
+  printf("\n\tENTER YOUR LETTER: ");
+  scanf("%c",&letter);
+  printf("\n\tYOUR LETTER IS %c\n\n",letter);
 
- if (letter='a')
- {
-
-    printf("\n\tYOUR LETTER IS VOWEL");
- }
-
- else if (letter=='e')
- {
-    printf("\n\tYOUR LETTER IS VOWEL");
-
- }
- else if (letter=='i')
-   {
+  if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u' || letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U')
+  {
 
     printf("\n\tYOUR LETTER IS VOWEL");
-   }
- else if (letter=='o')
-   {
-    printf("\n\tYOUR LETTER IS VOWEL");
+  }
 
-   }
- else if (letter=='u');
-   {
-    printf("\n\tYOUR LETTER IS VOWEL");
-
-   }
- 
- 
-   { 
+  else
+  {
 
     printf("\n\tYOUR NEMBER IS CONSONANT ");
-   }
+  }
 
-    printf("\n\t\tGOOD BY");
+  printf("\n\t\tGOOD BY");
 }
