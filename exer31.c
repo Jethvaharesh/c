@@ -6,21 +6,18 @@
 #include <stdio.h>
 void main()
 {
-    int col, row;
+    int j, i;
+    i=1;
 
-    
-    col = 1;
-    row=1;
-    while (row <= 5)
+ while(i<=5)
     {
-        col = 1;
-        while (col <= row)
+        j = 1;
+        while (j <= i)
         {
-            printf("%d",col);
-            col++;
+            printf("%d",i);
+            j++;
         }
         printf("\n");
-        row++;
-        
+        i++;
     }
 }
