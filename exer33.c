@@ -6,20 +6,18 @@
 #include <stdio.h>
 void main()
 {
-    int j, i,k;
+    int j, i, k;
 
     i = 5;
-    while (i>=5)
+    while (i <= 5)
     {
-        j = 5;
-        while (j <=i)
+        j = 1;
+        while (j <= 5)
         {
-            printf("%d",j);
-            j--;
-            
+            printf("%d", i);
+            j++;
         }
         printf("\n");
-        i--;
-        
+        i++;
     }
 }

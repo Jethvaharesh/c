@@ -1,7 +1,7 @@
-// *****
-// ****
-// ***
-// **
+// * * * * *
+// * * * *
+// * * *
+// * *
 // *
 #include <stdio.h>
 void main()
@@ -10,16 +10,18 @@ void main()
     i = 1;
     k=5;
 
-    while (i <= k)
+    while (i<=5)
     {
         j = 1;
         while (j<=k)
         {
-            printf("*");
+           
+            printf("* ");
             j++;
+            
         }
         printf("\n");
-         k--;
          i++;
+         k--;
     }
 }
