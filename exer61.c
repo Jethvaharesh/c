@@ -1,36 +1,73 @@
-//     *
-//    * *
-//   *   *
-//  *     *
 // * * * * *
+//  * * * *
+//   * * *
+//    * *
+//     *
 #include <stdio.h>
 void main()
 {
     int col, row, temp;
-    row = 1;
-    temp = 5;
-    while (row <= 5)
+    row = 5;
+    temp = 1;
+    while (row >= 1)
     {
         col = 1;
-        while (col <= temp)
+        while (col <= temp) // 1<=1
         {
             printf(" ");
 
             col++;
         }
         col = 1;
-        while (col <= row)
+        while (col <= row) // 1<=5
         {
-         if (col==5||row==5||col==row)
-           {
-             printf("* ");
-           }
-
+            if (row == 5 | col == 1 || col == row)
+            {
+                printf("* ");
+            }
+            else
+            {
+                printf("  ");
+            }
             col++;
         }
-
         printf("\n");
-        row++;
-        temp--;
+        row--;
+        temp++;
     }
 }
+// #include <stdio.h>
+//  void main()
+//  {
+
+//      int col,row,temp;
+//      temp = 1;
+//      row = 5;
+//      while (row>=1)
+//      {
+//          col = 1;
+
+//          while (col <= temp)
+//          {
+//              printf(" ");
+//              col++;
+//          }
+
+//          col = 1;
+//          while (col <= row)
+//          {
+//          if(row==5||col==1||col==row)
+//             {
+//             printf("* ");
+//             }
+//             else
+//             {
+//             printf("  ");
+//             }
+//              col++;
+//          }
+//          printf("\n");
+//          row--;
+//          temp++;
+//     }
+//  }
