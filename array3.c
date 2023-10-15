@@ -1,11 +1,10 @@
 #include <stdio.h>
 void main()
 {
-    int number[5],i;
-
-    for (i = 0; i < 5;i++)
+    int number[5], i;
+    for (i = 0; i < 5; i++)
     {
-        printf("Enter Value of number %d :  ",(i+1));
+        printf("Enter Value of number %d :  ", (i + 1));
         scanf("%d", &number[i]);
     }
 
@@ -19,9 +18,9 @@ void main()
     // scanf("%d", &number[3]);
     // printf("Enter Value of number 5 ");
     // scanf("%d", &number[4]);
-    for (i = 0; i < 5;i++)
+    for (i = 0; i < 5; i++)
     {
-        printf("Value of number %d : %d \n",(i+1), number[i]);
+        printf("Value of number %d : %d \n", (i + 1), number[i]);
     }
     // printf("Value of number 1 : %d \n", number[0]);
     // printf("Value of number 2 : %d \n", number[1]);
