@@ -26,10 +26,10 @@ void main()
     {
         sum = sum + number[i];
     } 
-    sum = sum + number[1];
-    sum = sum + number[2];
-    sum = sum + number[3];
-    sum = sum + number[4];
+    // sum = sum + number[1];
+    // sum = sum + number[2];
+    // sum = sum + number[3];
+    // sum = sum + number[4];
 
     printf("Addition of All number : %d ",sum);
 }
