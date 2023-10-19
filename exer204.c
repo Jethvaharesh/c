@@ -1,8 +1,10 @@
 // write a program to check bmi conditions.
 #include <stdio.h>
 void main()
-//    bmi = weight / (height * height);
+//     printf("\nWeight : %.2f Kg\n", weight);
+
 {
+   float weight, f_to_m, i_to_m, height, bmi;
    float weight, f_to_m, i_to_m, height, bmi;
    int foot_h, inch_h;
 
@@ -25,8 +27,6 @@ void main()
    printf("\nHeight : %.2f m \n", height);
 
    bmi = weight / (height * height);
-
-   printf("\nYOUR BMI = %.2f\n", bmi);
 
    if (bmi <= 18)
    {
