@@ -1,13 +1,8 @@
 // wrire a program to given menu
-
 // 1 for find bmi
-
 // 2 for find area of triangle
-
 // 3 for find area of cylinder
-
 // 4 for find squre of given
-
 // 5 for find zodiac Sign
 
 #include <stdio.h>
