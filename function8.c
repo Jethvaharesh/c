@@ -1,23 +1,17 @@
-// wrire a program to given menu
-// 1 for find bmi
-// 2 for find area of triangle
-// 3 for find area of cylinder
-// 4 for find squre of given
-// 5 for find zodiac Sign
-
 #include <stdio.h>
+
 void get_bmi()
 {
-    float weight, f_to_m, i_to_m, height, bmi, r, cyl, pi;
-    pi = 3.1415926;
-    int foot_h, inch_h, base, area, squre, month, date;
+    float weight, f_to_m, i_to_m, height, bmi;
+    int foot_h, inch_h;
 
-    printf("Enter Weight  in kg: ");
+    printf("Enter Weight : ");
     scanf("%f", &weight);
     printf("Enter Height in Foot : ");
     scanf("%d", &foot_h);
     printf("Ente Height in Inche : ");
-    scanf("%d", &inch_h); // print value
+    scanf("%d", &inch_h);
+
     printf("\nWeight : %.2f Kg\n", weight);
     printf("\nFoot   : %d  \n", foot_h);
     printf("\nInch   : %d \n", inch_h);
@@ -28,9 +22,10 @@ void get_bmi()
     // printf(" %f ", i_to_m);
     height = f_to_m + i_to_m;
     printf("\nHeight : %.2f m \n", height);
+
     bmi = weight / (height * height);
 
-    printf("Your bmi is %.2f   \n\n", bmi);
+    printf("\n|||||||||||||||||||||||||| Your BMI is %.2f |||||||||||||||||||||||||||||||`\n", bmi);
 
     if (bmi < 18.5 && bmi >= 0)
     {
@@ -59,7 +54,8 @@ void get_bmi()
 
     printf("\n");
 }
-void get_araeoftriangle()
+
+void get_areaOfTriangle()
 {
     float Area, height, base;
     printf("Area of triangle \n");
@@ -83,7 +79,8 @@ void get_areaOfCylinder()
     area = (2 * pi * r * height) + (2 * pi * (r * r));
     printf("\nYour cylinder is %.2f \n\n", area);
 }
-int get_Squre()
+
+void get_squre()
 {
     int number, sq;
     printf("Enter Value of number ");
@@ -170,51 +167,51 @@ void get_ZodiacSign()
     }
     printf("\n");
 }
-
 void main()
 {
-    int number = 0;
 
-    while (number == 0)
+    int ch = 0;
+
+    while (ch == 0)
     {
-        printf("select number for Oparetion \n\n");
-        printf(" 1 for find bmi \n");
-        printf(" 2 for find arae of triangle \n");
-        printf(" 3 for find arae of cylinder  \n");
-        printf(" 4 for find squre of given number  \n");
-        printf(" 5 for find zodiac sign\n");
-        printf("\n choose Number : ");
-        scanf("%d", &number);
+        printf("Selct number for Operation : \n");
 
-        if (number == 1)
+        printf("  1 for find bmi\n");
+
+        printf(" 2 for find area of triangle\n");
+        printf(" 3 for find area of cylinder\n");
+        printf(" 4 for find squre of given\n");
+        printf(" 5 for find zodiac Sign \n");
+
+        printf("Choose  Number : ");
+        scanf("%d", &ch);
+
+        if (ch == 1)
         {
             get_bmi();
         }
-
-        else if (number == 2)
+        else if (ch == 2)
         {
-            get_araeoftriangle();
+            get_areaOfTriangle();
         }
-
-        else if (number == 3)
+        else if (ch == 3)
         {
-           get_areaOfCylinder();
+            get_areaOfCylinder();
         }
-
-        else if (number == 4)
+        else if (ch == 4)
         {
-             get_Squre();
+            get_squre();
         }
-        else if(number==5)
+        else if (ch == 5)
         {
             get_ZodiacSign();
         }
         else
         {
-            printf("invalide chiose");
+            printf("Invalide Choise \n");
         }
 
-        printf("\nIf continue  then Enter  0  : -->> ");
-        scanf("%d", &number);
+        printf("If Continue Then Enter 0 -->> ");
+        scanf("%d", &ch);
     }
 }
