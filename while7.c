@@ -6,7 +6,7 @@ void main()
 
     int num = 1, temp = 1;
     
-    while(num<=3000)
+    while(num<=3000) 
     {
         printf("%d , ", num);
         temp = temp + 3;  

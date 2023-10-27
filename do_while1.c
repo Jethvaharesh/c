@@ -2,7 +2,7 @@
 void main()
 {
     int i;
-    i = 6;
+    i =6;
     do
     {
         printf("Name : Belim Sahil \n");

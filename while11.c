@@ -25,7 +25,7 @@ void main()
 
         while (j <= k)
         {
-            printf("*");
+            printf("* ");
             // j = j + 1;
             j++;
         }
